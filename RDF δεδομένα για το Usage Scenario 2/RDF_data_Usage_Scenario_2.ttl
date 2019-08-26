@@ -1,0 +1,114 @@
+@prefix schema: <https://schema.org/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix cv: <http://data.europa.eu/m8g/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1001> a cpsv:PublicService ;
+	dct:title "Issuing of a copy of a childbirth registration certificate" ;
+	dct:description "Submission of application for issuing a copy of a childbirth registration certificate." ;
+	cv:hasCompetentAuthority <http://127.0.0.1:3345/Municipal+Registry+Office> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Application0001> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0001> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/IdentityCopy> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1002> a cpsv:PublicService ;
+	dct:title "Granting of childbirth benefit (financial aid)" ;
+	dct:description "Prerequisites and required supporting documents for granting of childbirth benefit (aid)." ;
+	cv:hasCompetentAuthority <http://127.0.0.1:3345/Social+Insurance+Institute+%28IKA%29> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Application0002> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0002> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/AccountExcerpt> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/IkaBooklet> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/BirthCertificate> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1003> a cpsv:PublicService ;
+	dct:title "Granting of  pregnancy and childbed allowance by Social Insurance Institute (IKA)" ;
+	dct:description "Prerequisites and required supporting documents for granting of pregnancy - lactation allowance by Social Insurance Institute (IKA)." ;
+	cv:hasCompetentAuthority <http://127.0.0.1:3345/Social+Insurance+Institute+%28IKA%29> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Application0003> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0003> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/AccountExcerpt> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/IkaBooklet> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/BirthCertificate> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1004> a cpsv:PublicService ;
+	dct:title "Supplementary maternity allowances by OAED for women insured at ΙΚΑ" ;
+	dct:description "Prerequisites and required supporting documents for granting supplementary maternity allowances by Labor Force Employment Organization (OAED) for women insured at  Social Insurance Institute (IKA)." ;
+	cv:hasCompetentAuthority <http://127.0.0.1:3345/Labor+Force+Employment+Organization+%28%CE%9F%CE%91%CE%95%CE%94%29> ;
+	cv:hasParticipation <http://127.0.0.1:3345/Social+Insurance+Institute+%28IKA%29> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Application0004> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0004> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1005> a cpsv:PublicService ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/EmployerCertificate> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1006> a cpsv:PublicService ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/IkaBooklet> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1007> a cpsv:PublicService ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/IkaCertificate> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Application0001> a cv:Evidence ;
+	dct:title "Application for registering of a child birth" ;
+	dct:description "Application for registering of a child birth" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/IdentityCopy> a cv:Evidence ;
+	dct:title "Copy of the Identity Card" ;
+	dct:description "Certified copy of the Identity Card" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> a cv:Evidence ;
+	dct:title "Identity Card" ;
+	dct:description "Identity Card issued by the police" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Application0002> a cv:Evidence ;
+	dct:title "Application for childbirth benefit" ;
+	dct:description "Application for granting of childbirth benefit (financial aid)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/AccountExcerpt> a cv:Evidence ;
+	dct:title "Account excerpt" ;
+	dct:description "Account excerpt or employer certificate validated by the employer's  Social Insurance Institute (IKA) Branch or Bulletin of Insurance Identity and Financial Contributions (DATE)." .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/IkaBooklet> a cv:Evidence ;
+	dct:title "Insurance Booklet" ;
+	dct:description "Validated Insurance Booklet by Social Insurance Institute (IKA) (Personal and Family)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/BirthCertificate> a cv:Evidence ;
+	dct:title "Birth certificate" ;
+	dct:description "Birth certificate" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Application0003> a cv:Evidence ;
+	dct:title "Applicartion for childbed allowance" ;
+	dct:description "Applicartion for granting of  pregnancy and childbed allowance by Social Insurance Institute (IKA)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Application0004> a cv:Evidence ;
+	dct:title "Application for supplementary allowances" ;
+	dct:description "Application for issuing supplementary maternity allowances by Labor Force Employment Organization (OAED) for women insured at ΙΚΑ" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/EmployerCertificate> a cv:Evidence ;
+	dct:title "Employer certification" ;
+	dct:description "Employer certification" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/IkaCertificate> a cv:Evidence ;
+	dct:title "Social Insurance Institute certificate" ;
+	dct:description "Social Insurance Institute (IKA) certificate on the duration of subvention, the amount of daily allowance and the total paid amount of pregnancy and childbed allowance" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0001> a cv:Cost ;
+	cv:value "0.0" ;
+	cv:currency "Euro" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0002> a cv:Cost ;
+	cv:value "0.0" ;
+	cv:currency "Euro" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0003> a cv:Cost ;
+	cv:value "0.0" ;
+	cv:currency "Euro" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0004> a cv:Cost .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1001> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/consequence> <http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1002> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1001> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/consequence> <http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1003> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1001> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/consequence> <http://data.dai.uom.gr:8890/PublicServices/id/ps/ps1004> .

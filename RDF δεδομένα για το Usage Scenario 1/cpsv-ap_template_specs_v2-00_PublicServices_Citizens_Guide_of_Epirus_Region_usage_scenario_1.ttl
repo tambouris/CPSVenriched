@@ -1,0 +1,2017 @@
+@prefix schema: <https://schema.org/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix cv: <http://data.europa.eu/m8g/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0001> a cpsv:PublicService ;
+	dct:title "Announcement of the commencement of an electrical engineer professional activities" ;
+	dct:description "Application submission for  the announcement of the commencement of an electrical engineer professional activities" ;
+	dcat:keyword "Announcement" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0001> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0001> ;
+	dcat:keyword "Commencement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/108_2013> ;
+	dcat:keyword "Electrical Activities" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2013> ;
+	dcat:keyword "Engineers" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0003_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0002> a cpsv:PublicService ;
+	dct:title "Announcement of the commencement of a mechanical engineer professional activities" ;
+	dct:description "Application submission for  the announcement of the commencement of a mechanical engineer professional activities" ;
+	dcat:keyword "Announcement" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0002> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0002> ;
+	dcat:keyword "Commencement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2013> ;
+	dcat:keyword "Mechanical Activities" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0003_2013> ;
+	dcat:keyword "Engineers" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0004_2013> , <http://data.dai.uom.gr:8890/LegalFramework/id/pd/112_2012> , <http://data.dai.uom.gr:8890/LegalFramework/id/pd/113_2012> , <http://data.dai.uom.gr:8890/LegalFramework/id/pd/114_2012> , <http://data.dai.uom.gr:8890/LegalFramework/id/pd/115_2012> , <http://data.dai.uom.gr:8890/LegalFramework/id/pd/1_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0003> a cpsv:PublicService ;
+	dct:title "Announcement of the commencement of a construction machinery assistant operator professional  activities" ;
+	dct:description "Application submission for  the announcement of the commencement of a construction machinery assistant operator professional activities" ;
+	dcat:keyword "Announcement" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0003> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0002> ;
+	dcat:keyword "Commencement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2013> ;
+	dcat:keyword "Assistant" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0005_2013> ;
+	dcat:keyword "Construction Machinery Operator" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/113_2012> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0004> a cpsv:PublicService ;
+	dct:title "Approval of application for the participation in exams for obtaining a construction machinery operator license" ;
+	dct:description "Application submission for the participation in exams in order to obtain a construction machinery operator license" ;
+	dcat:keyword "license" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0004> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P15D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0003> ;
+	dcat:keyword "Operator" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/113_2012> ;
+	dcat:keyword "Machinery" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0005_2013> ;
+	dcat:keyword "Construction" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0018> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0003> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0005> a cpsv:PublicService ;
+	dct:title "Matching the old license  of  a construction machinery operator with a new type of license" ;
+	dct:description "Application submission for the matching of old license of a construction machinery operator with a new type of license" ;
+	dcat:keyword "Matching" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ExpiredLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0001> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P15D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0004> ;
+	dcat:keyword "New type of license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/113_2012> ;
+	dcat:keyword "Old license" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0005_2013> ;
+	dcat:keyword "Construction Machinery Operator" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0006> a cpsv:PublicService ;
+	dct:title "Initial issuing of driving license of ΑΜ, Α1, Α2, Α, Β category" ;
+	dct:description "Application submission for the initial issuing of driving license of ΑΜ, Α1, Α2, Α  or Β category " ;
+	dcat:keyword "Issuing" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+Certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0005> ;
+	dcat:keyword "Driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Category" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	dcat:keyword "Α" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	dcat:keyword "Α1" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	dcat:keyword "Α2" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	dcat:keyword "ΑΜ" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	dcat:keyword "Β" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0007> a cpsv:PublicService ;
+	dct:title "Upgrading of valid driving license of  ΑΜ, Α1, Α2, Α, Β, ΒΕ category" ;
+	dct:description "Application submission for the upgrading of valid driving license of  ΑΜ, Α1, Α2, Α, Β or ΒΕ category" ;
+	dcat:keyword "Upgrading" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0006> ;
+	dcat:keyword "Driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Category" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	dcat:keyword "Α" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	dcat:keyword "Α1" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	dcat:keyword "Α2" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	dcat:keyword "ΑΜ" , "Β" , "ΒΕ" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0008> a cpsv:PublicService ;
+	dct:title "Upgrading of valid driving license of B category to C1 or C or D1 or D category, with or without a  Certificate of Professional Competence (C.P.C.)" ;
+	dct:description "Application submission for the upgrading of valid driving license of B category to C1 or C or D1 or D category,  with or without a  Certificate of Professional Competence (C.P.C)" ;
+	dcat:keyword "Upgrading" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0007> ;
+	dcat:keyword "Driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	dcat:keyword "Category" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	dcat:keyword "B" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2009> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	dcat:keyword "C" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	dcat:keyword "C1" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	dcat:keyword "D" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2009> ;
+	dcat:keyword "D1" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/circ/454_2009> ;
+	dcat:keyword "C.P.C." , "Certificate of Professional Competence" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0009> a cpsv:PublicService ;
+	dct:title "Upgrading of valid driving license of  C1, C, D1, D categories to C1Ε, CE, D1E, DΕ categories, respectively and within these categories, with or without a  Certificate of Professional Competence (C.P.C.)" ;
+	dct:description "Application submission for the upgrading of a valid driving license of  C1, C, D1, D categories to C1Ε, CE, D1E, DΕ categories, respectively and within these categories, with or without a  Certificate of Professional Competence (C.P.C.)" ;
+	dcat:keyword "Upgrading" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0008> ;
+	dcat:keyword "Driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	dcat:keyword "Category" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	dcat:keyword "C1E" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2009> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	dcat:keyword "CE" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	dcat:keyword "D1E" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	dcat:keyword "DE" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2009> ;
+	dcat:keyword "C.P.C." ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/circ/454_2009> ;
+	dcat:keyword "Certificate of Professional Competence" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0010> a cpsv:PublicService ;
+	dct:title "Renewing of driving license of every category" ;
+	dct:description "Application submission for the renewing of valid driving license of  each category" ;
+	dcat:keyword "Renewing" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0009> ;
+	dcat:keyword "Driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cv:sector "." ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0011> a cpsv:PublicService ;
+	dct:title "Issuing of license for the establishment and the operation of a Creative Center for Children (C.C.C.) With Disabilities (W.D) for profit" ;
+	dct:description "Application submission for the issuing of a license for the establishment and the operation of a Creative Center for Children (C.C.C.) With Disabilities (W.D.) for profit" ;
+	dcat:keyword "C.C.C.-W.D." ;
+	cv:sector "Q88.9.1 - Child day-care activities" ;
+	dct:type " Education n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2001> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0002> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Creative Center" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingPermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0004_2013> ;
+	dcat:keyword "For profit" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingSitePlan> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/LeaseContract> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0006> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0007> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/RegulationFunctioning> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DeclarationOfHonour> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0012> a cpsv:PublicService ;
+	dct:title "Issuing of license for the establishment and the operation of a non-profit Creative Center for Children (C.C.C.) With Disabilities (W.D.) " ;
+	dct:description "Application submission for the issuing of a license for the establishment and the operation of a non-profit Creative Center for Children (C.C.C.) With Disabilities (W.D.) " ;
+	dcat:keyword "C.C.C.-W.D." ;
+	cv:sector "Q88.9.1 - Child day-care activities" ;
+	dct:type " Education n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2001> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0003> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Creative Center" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingPermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4018_2011> ;
+	dcat:keyword "Non-profit" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingSitePlan> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/LeaseContract> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0006> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ArticlesOfAssociation> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/RegulationFunctioning> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0008> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DeclarationOfHonour> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0013> a cpsv:PublicService ;
+	dct:title "Issuing of license for the establishment and the operation of a Creative Center for Children (C.C.C.) for profit" ;
+	dct:description "Application submission for the issuing of a license for the establishment and the operation of a Creative Center for Children (C.C.C.) for profit" ;
+	dcat:keyword "C.C.C." ;
+	cv:sector "Q88.9.1 - Child day-care activities" ;
+	dct:type " Education n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2001> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0004> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Creative Center" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingPermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2002> ;
+	dcat:keyword "For profit" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingSitePlan> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2009> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4018_2011> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/LeaseContract> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0006> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/RegulationFunctioning> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DeclarationOfHonour> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ArticlesOfAssociation> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0008> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0014> a cpsv:PublicService ;
+	dct:title "Issuing of license for the establishment and the operation of a non-profit Creative Center for Children (C.C.C.) " ;
+	dct:description "Application submission for the issuing of a license for the establishment and the operation of a non-profit Creative Center for Children (C.C.C.) " ;
+	dcat:keyword "C.C.C." ;
+	cv:sector "Q88.9.1 - Child day-care activities" ;
+	dct:type " Education n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2001> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0005> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Creative Center" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingPermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2002> ;
+	dcat:keyword "Non-profit" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingSitePlan> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2009> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4018_2011> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/LeaseContract> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0006> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ArticlesOfAssociation> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/RegulationFunctioning> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DeclarationOfHonour> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0008> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0015> a cpsv:PublicService ;
+	dct:title "Issuing of Certificate of Professional Competence (C.P.C.) of Initial Training" ;
+	dct:description "Application submission for the issuing of a Certificate of Professional Competence (C.P.C) of Initial Training" ;
+	dcat:keyword "Initial Training" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+Certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0010> ;
+	dcat:keyword "C.P.C." ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Certificate of Professional Competence" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	dcat:keyword "Issuing" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2009> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2009> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0016> a cpsv:PublicService ;
+	dct:title "Reissuing of driving license of categories restricted for health or retirement reasons" ;
+	dct:description "Application submission for the reissuing of a  driving license of categories restricted for health  or retirement reasons" ;
+	dcat:keyword "Driving license" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0009> ;
+	dcat:keyword "Reissuing" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Health of retirement reasons" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/circ/454_2009> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0009> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0010> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0017> a cpsv:PublicService ;
+	dct:title "Conversion of American, Canadian, Australian, Japanese, South Korean and South African driving license into Greek driving license" ;
+	dct:description "Application submission for the conversion of an American, Canadian, Australian, Japanese, South Korean and South African driving license into Greek driving license" ;
+	dcat:keyword "Driving license" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0009> ;
+	dcat:keyword "American" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Canadian" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	dcat:keyword "Australian" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/circ/454_2009> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	dcat:keyword "Japanese" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	dcat:keyword "South Korean" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	dcat:keyword "South African" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2004> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	dcat:keyword "Greek" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0011> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0012> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0018> a cpsv:PublicService ;
+	dct:title "Issuing of certified copy of driving license due to loss, theft, damage or alteration" ;
+	dct:description "Application submission for the issuing of a certified copy of a driving license due to loss, theft, damage or alteration" ;
+	dcat:keyword "Driving license" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0011> ;
+	dcat:keyword "Issuing" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Certified Copy" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	dcat:keyword "Loss" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	dcat:keyword "Damage" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0019> a cpsv:PublicService ;
+	dct:title "Exchanging of driving license issued by a Member State of E.E. with a greek driving license of equivalent category" ;
+	dct:description "Application submission for the exchanging of a driving license issued by a Member State of E.E. with a greek driving license of equivalent category" ;
+	dcat:keyword "Driving license" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0012> ;
+	dcat:keyword "Exchanging" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Member State" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/circ/454_2009> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0020> a cpsv:PublicService ;
+	dct:title "Replacement of driving license " ;
+	dct:description "Application submission for the replacement of a damaged or altered driving license " ;
+	dcat:keyword "Driving license" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0012> ;
+	dcat:keyword "Replacement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0021> a cpsv:PublicService ;
+	dct:title "Limitation of categories of valid driving license for  health  or retirement reasons" ;
+	dct:description "Application submission for the limitation of the categories of a valid driving license  for health  or retirement reasons" ;
+	dcat:keyword "Driving license" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0013> ;
+	dcat:keyword "Category" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Limitation" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	dcat:keyword "Retirement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0010> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0022> a cpsv:PublicService ;
+	dct:title "Issuing of special driving license of passenger vehicle for public use (taxi and special leasing vehicle)" ;
+	dct:description "Application submission for the issuing of a special driving license of passenger vehicle for public use (taxi and special leasing vehicle)" ;
+	dcat:keyword "Issuing" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DeclarationOfHonour> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4199_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/SpecialDrivingLicense> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0013> ;
+	dcat:keyword "Special driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0013> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4070_2012> ;
+	dcat:keyword "Passenger vehicle " ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0014> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/243_1987> ;
+	dcat:keyword "Taxi" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/244_1987> ;
+	dcat:keyword "Special Leasing Car" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3710_2008> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/circ/251_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0023> a cpsv:PublicService ;
+	dct:title "Upgrading of valid special driving license of passenger vehicle for public use (taxi and special leasing vehicle)" ;
+	dct:description "Application submission for the upgrading of a valid special driving license of passenger vehicle for public use (taxi and special leasing vehicle)" ;
+	dcat:keyword "Upgrading" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/SpecialDrivingLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/243_1987> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/SpecialDrivingLicense> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0013> ;
+	dcat:keyword "Special driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/244_1987> ;
+	dcat:keyword "Passenger vehicle " ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_1984> ;
+	dcat:keyword "Taxi" , "Special Leasing Car" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0024> a cpsv:PublicService ;
+	dct:title "Issuing of certified copy of special driving license of passenger vehicle for public use (taxi and special leasing vehicle) due to loss, theft or damage" ;
+	dct:description "Application submission for the issuing of certified copy of a special driving license of passenger vehicle for public use (taxi and special leasing vehicle) due to loss, theft or damage" ;
+	dcat:keyword "Issuing" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/243_1987> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/SpecialDrivingLicense> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Certified Copy" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/244_1987> ;
+	dcat:keyword "Special driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_1984> ;
+	dcat:keyword "Passenger vehicle " ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	dcat:keyword "Taxi" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	dcat:keyword "Special Leasing Car" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0015> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0025> a cpsv:PublicService ;
+	dct:title "Adding of code 96 in valid driving license of B category" ;
+	dct:description "Application submission for the adding of the code 96 in a valid driving license of B category" ;
+	dcat:keyword "Driving license " ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0012> ;
+	dcat:keyword "B category" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	dcat:keyword "Adding" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	dcat:keyword "Code 96" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0016> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0026> a cpsv:PublicService ;
+	dct:title "Replacement of valid driving license issued by Switzerland with a Greek driving license of the same category without a theoretical test and a test of skills and behavior" ;
+	dct:description "Application submission for the replacement of a valid driving license issued by Switzerland with a Greek driving license of the same category without a theoretical test and a test of skills and behavior" ;
+	dcat:keyword "Driving License" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0009> ;
+	dcat:keyword "Theoretical test" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	dcat:keyword "Test of Skills" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	dcat:keyword " Switzerland" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/circ/454_2009> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2013> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/1333_1983> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0011> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0027> a cpsv:PublicService ;
+	dct:title "Renewing of special driving license of passenger vehicle for public use (taxi and special leasing vehicle)" ;
+	dct:description "Application submission for the renewing of a special driving license of passenger vehicle for public use (taxi and special leasing vehicle)" ;
+	dcat:keyword "Renewing" ;
+	cv:sector "H52.2.1 - Service activities incidental to land transportation " ;
+	dct:type "Transport" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3710_2008> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/SpecialDrivingLicense> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0013> ;
+	dcat:keyword "Special driving license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4070_2012> ;
+	dcat:keyword "Passenger vehicle " ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4199_2013> ;
+	dcat:keyword "Taxi" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0013> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/243_1987> ;
+	dcat:keyword "Special leasing Car" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/SpecialDrivingLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/244_1987> , <http://data.dai.uom.gr:8890/LegalFramework/id/circ/251_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0028> a cpsv:PublicService ;
+	dct:title "Classification of parcels" ;
+	dct:description "Application submission for the issuing of a certificate for the classification of  a parcel" ;
+	dcat:keyword "Classification" ;
+	cv:sector "A1.6.1.-Support activities for crop production" ;
+	dct:type "Agriculture, forestry, fishing and hunting" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+licence%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/SolemnDeclaration> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/2508_1997> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0028> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P2D-P7D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Parcels" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TopographicPlan> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0029> a cpsv:PublicService ;
+	dct:title "Issuing of certificate for the suitability of a parcel" ;
+	dct:description "Application submission for the issuing of a certificate of the suitability of a parcel" ;
+	dcat:keyword "Issuing" ;
+	cv:sector "A1.6.1.-Support activities for crop production" ;
+	dct:type "Agriculture, forestry, fishing and hunting" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+licence%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TopographicPlan> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/634_1977> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0029> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P2D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Certificate " , "Parcel" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0030> a cpsv:PublicService ;
+	dct:title "Issuing of license of  trading plant protection products in stores" ;
+	dct:description "Application submission for the issuing of a licence of trading plant protection products in stores" ;
+	dcat:keyword "Licence" ;
+	cv:sector "G46.1.8. Agents specialiased in the sale of other particular products" ;
+	dct:type "General economic, commercial and labour affairs" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+licence%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4036_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0006> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P3M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0015> ;
+	dcat:keyword "Stores" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/SolemnDeclaration> ;
+	dcat:keyword "Products" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0013> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0010> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingPermit> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingSitePlan> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0017> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0031> a cpsv:PublicService ;
+	dct:title "Registration in the  fresh fruits and vegetables register of traders" ;
+	dct:description "Application submission for the registration in the fresh fruits and vegetables register of traders" ;
+	dcat:keyword "Registration" ;
+	cv:sector "G47.2.1. Retail sale of fruit and vegetables in specialised stores" ;
+	dct:type "General economic, commercial and labour affairs" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Starting+a+new+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProducerInvoice> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2003> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/CodeNumber> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P3D-P5D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0016> ;
+	dcat:keyword "Traders" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/StoreAuthorization> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2004> ;
+	dcat:keyword "Register" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0031> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0030> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0019> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/SolemnDeclaration> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0032> a cpsv:PublicService ;
+	dct:title "Importing/exporting fresh fruit and vegetables" ;
+	dct:description "Application submission for the issuing of a certificate of importing/exporting fresh fruit and vegetables" ;
+	dcat:keyword "Importing" ;
+	cv:sector "G46.3.1. Wholesale of fruit and vegetables" ;
+	dct:type "General economic, commercial and labour affairs" ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+licence%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/reg/0001_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0020> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "Immediately" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0017> ;
+	dcat:keyword "Exporting" , "Fresh fruit and vegetables" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0033> a cpsv:PublicService ;
+	dct:title "Evaluation procedure of the Special Ecological Assessment (S.E.A.) of projects and activities of B category" ;
+	dct:description "Application submission for the participation in the evaluation procedure of the Special Ecological Assessment (S.E.A.) of projects and activities of B category" ;
+	dcat:keyword "Special" ;
+	cv:sector "F43.9 - Other specialised construction activities " ;
+	dct:type "Environmental protection n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4014_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0001> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P35D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Ecological" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2012> ;
+	dcat:keyword "Assessment" ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2012> , <http://data.dai.uom.gr:8890/LegalFramework/id/md/0005_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0034> a cpsv:PublicService ;
+	dct:title "Inclusion of  Renewable Energy Sources (R.E.S.) projects in the Standard Environmental Commitments (S.E.C.)" ;
+	dct:description "Application submission for the inclusion of Renewable Energy Sources (R.E.S.) projects in the Standard Environmental Commitments (S.E.C.)" ;
+	dcat:keyword "Inclusion" ;
+	cv:sector "F43.9 - Other specialised construction activities " ;
+	dct:type "Environmental protection n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4014_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0002> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P15D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Renewable Energy Sources" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2012> ;
+	dcat:keyword "Standard Environmental Commitments" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TopographicPlan> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2012> ;
+	dcat:keyword "S.E.C" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0007> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0006_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0008> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0009> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0021> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0035> a cpsv:PublicService ;
+	dct:title "Inclusion of specific projects and activities in the Standard Environmental Commitments (S.E.C.)" ;
+	dct:description "Application submission for the inclusion of specific projects and activities in the Standard Environmental Commitments (S.E.C.)" ;
+	dcat:keyword "Inclusion" ;
+	cv:sector "F43.9 - Other specialised construction activities " ;
+	dct:type "Environmental protection n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2014> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0003> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P20D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Standard Environmental Commitments" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0005_2013> ;
+	dcat:keyword "S.E.C" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TopographicPlan> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	dcat:keyword "Specific projects and activities" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0022> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4014_2011> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0008> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0021> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0036> a cpsv:PublicService ;
+	dct:title "Inclusion of road construction in the Standard Environmental Commitments (S.E.C.)" ;
+	dct:description "Application submission for the inclusion of road construction in the Standard Environmental Commitments (S.E.C.)" ;
+	dcat:keyword "Inclusion" ;
+	cv:sector "F43.9 - Other specialised construction activities " ;
+	dct:type "Environmental protection n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4014_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0004> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P20D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	dcat:keyword "Standard Environmental Commitments" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2012> ;
+	dcat:keyword "S.E.C" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TopographicPlan> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0005_2013> ;
+	dcat:keyword "Road construction" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0008> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0007_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0021> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0023> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0037> a cpsv:PublicService ;
+	dct:title "Inclusion of Environmental Infrastructure Systems projects to Standard Environmental Commitments (S.E.C.)" ;
+	dct:description "Application submission for the inclusion of  Environmental Infrastructure Systems projects to Standard Environmental Commitments (S.E.C.)" ;
+	cv:sector "E38.1.1 - Collection of non-hazardous waste" ;
+	dct:type "Environmental protection n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0005> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P20D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/4014_2011> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TopographicPlan> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0005_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0008> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/md/0008_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0021> , <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0023> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0038> a cpsv:PublicService ;
+	dct:title "Announcement of the commencement of an electrician professional activities" ;
+	dct:description "Application submission for  the announcement of an electrician professional activities" ;
+	dcat:keyword "Announcement" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0024> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0001> ;
+	dcat:keyword "Commencement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2013> ;
+	dcat:keyword "Electrician" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0003_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/108_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0039> a cpsv:PublicService ;
+	dct:title "Matching the old license  of an electrician with a new type of license" ;
+	dct:description "Application submission for the matching of old license of an electrician with a new type of license" ;
+	dcat:keyword "Matching" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ExpiredLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0010> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P15D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0018> ;
+	dcat:keyword "New type of license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/112_2012> ;
+	dcat:keyword "Old license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0018> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2013> ;
+	dcat:keyword "Electrician" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TaxReturn> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0040> a cpsv:PublicService ;
+	dct:title "Announcement of the commencement of a plumber professional activities" ;
+	dct:description "Application submission for  the announcement of a plumber professional activities" ;
+	dcat:keyword "Announcement" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0025> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0002> ;
+	dcat:keyword "Commencement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2013> ;
+	dcat:keyword "Plumber" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0003_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/112_2012> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0006_2013> , <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0007_2013> , <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0008_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0041> a cpsv:PublicService ;
+	dct:title "Matching the old license  of a plumber with a new type of license" ;
+	dct:description "Application submission for the matching of old license of a plumber with a new type of license" ;
+	dcat:keyword "Matching" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ExpiredLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/112_2012> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0011> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P15D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0018> ;
+	dcat:keyword "New type of license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	dcat:keyword "Old license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0006_2013> ;
+	dcat:keyword "Plumber" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TaxReturn> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0007_2013> , <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0008_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0042> a cpsv:PublicService ;
+	dct:title "Announcement of the commencement of a refrigeration technician professional activities" ;
+	dct:description "Application submission for  the announcement of a refrigeration technician professional activities" ;
+	dcat:keyword "Announcement" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0026> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0002> ;
+	dcat:keyword "Commencement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/1_2013> ;
+	dcat:keyword "Refrigeration technician" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0009_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0010_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0011_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0043> a cpsv:PublicService ;
+	dct:title "Matching the old license  of a refrigeration technician with a new type of license" ;
+	dct:description "Application submission for the matching of old license of a refrigeration technician with a new type of license" ;
+	dcat:keyword "Matching" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ExpiredLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0012> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P15D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0018> ;
+	dcat:keyword "New type of license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/1_2013> ;
+	dcat:keyword "Old license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0009_2013> ;
+	dcat:keyword "Refrigeration technician" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TaxReturn> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0010_2013> , <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0011_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0044> a cpsv:PublicService ;
+	dct:title "Announcement of the commencement of a technician of mechanical equipment professional activities" ;
+	dct:description "Application submission for  the announcement of a technician of mechanical equipment professional activities" ;
+	dcat:keyword "Announcement" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Starting+business%3A+Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0027> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P1M" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0002> ;
+	dcat:keyword "Commencement" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/115_2012> ;
+	dcat:keyword "Technician of mechanical equipment" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0006_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0007_2013> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0008_2013> , <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2013> , <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0003_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0045> a cpsv:PublicService ;
+	dct:title "Matching the old license  of a technician of mechanical equipment with a new type of license" ;
+	dct:description "Application submission for the matching of old license of a technician of mechanical equipment with a new type of license" ;
+	dcat:keyword "Matching" ;
+	cv:sector "M71.1.2 - Engineering activities and related technical consultancy" ;
+	dct:type "General public services n.e.c." ;
+	dct:language "el" ;
+	cv:isGroupedBy <http://127.0.0.1:3345/Doing+business%3A++Needing+a+license%2C+permit+or+certificate+to+start+or+continue+an+activity> ;
+	cv:hasCompetentAuthority <http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ExpiredLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> ;
+	cpsv:produces <http://data.dai.uom.gr:8890/PublicServices/id/doc/License0013> ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" ;
+	cv:hasChannel <http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> ;
+	cv:processingTime "P15D" ;
+	cv:hasCost <http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0018> ;
+	dcat:keyword "New type of license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/pd/115_2012> ;
+	dcat:keyword "Old license" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0006_2013> ;
+	dcat:keyword "Technician of mechanical equipment" ;
+	cpsv:hasInput <http://data.dai.uom.gr:8890/PublicServices/id/doc/TaxReturn> ;
+	cv:hasFormalFramework <http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0007_2013> .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Identity> a cv:Evidence ;
+	dct:title "Certified copy of identity card or passport" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/BachelorDegree> a cv:Evidence ;
+	dct:title "Certified copy of  the respective bachelor degree" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/ExpiredLicense> a cv:Evidence ;
+	dct:title "Original old license" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/HealthCertificate> a cv:Evidence ;
+	dct:title "Health Certificate of a public hospital or a health centre or a  regional public health institute" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/ProfessionalLicense> a cv:Evidence ;
+	dct:title "Certified copy of professional license " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/ResidencePermit> a cv:Evidence ;
+	dct:title "Residence permit issued in accordance with the provisions in force (only for citizens outside European Union)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/ReceiptPayment> a cv:Evidence ;
+	dct:title "Receipt of fee payment " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0003> a cv:Evidence ;
+	dct:title "Certificate for the announcement of the commencement of  a construction machinery assistant operator professional  activities" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> a cv:Evidence ;
+	dct:title "Driving license of AM category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> a cv:Evidence ;
+	dct:title "Driving license of A1 category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> a cv:Evidence ;
+	dct:title "Driving license of A2 category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> a cv:Evidence ;
+	dct:title "Driving license of A category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> a cv:Evidence ;
+	dct:title "Driving license of B category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> a cv:Evidence ;
+	dct:title "Driving license of BE category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> a cv:Evidence ;
+	dct:title "Driving license of C category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> a cv:Evidence ;
+	dct:title "Driving license of C1 category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> a cv:Evidence ;
+	dct:title "Driving license of D category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> a cv:Evidence ;
+	dct:title "Driving license of D1 category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> a cv:Evidence ;
+	dct:title "Driving license of C1E category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> a cv:Evidence ;
+	dct:title "Driving license of CE category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> a cv:Evidence ;
+	dct:title "Driving license of DE1 category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> a cv:Evidence ;
+	dct:title "Driving license of DE category" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/ApplicationForm> a cv:Evidence ;
+	dct:title "Filled and signed application form" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingPermit> a cv:Evidence ;
+	dct:title "Certified copy of the building permit of the competent Urban Planning Service" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/BuildingSitePlan> a cv:Evidence ;
+	dct:title "Site plan of the building" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/TechnicalReport> a cv:Evidence ;
+	dct:title "Technical report that describes characteristics of a building" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/LeaseContract> a cv:Evidence ;
+	dct:title "Certified lease contract" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0006> a cv:Evidence ;
+	dct:title "Certificate of the competent fire service" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0007> a cv:Evidence ;
+	dct:title "Certified copy of the announcement of the commencement of professional activities" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/RegulationFunctioning> a cv:Evidence ;
+	dct:title "Regulation of the fuctioning of the center" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DeclarationOfHonour> a cv:Evidence ;
+	dct:title "Declaration of honour of Law 1599/1986 " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/ArticlesOfAssociation> a cv:Evidence ;
+	dct:title "Articles of Association of the legal person" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0008> a cv:Evidence ;
+	dct:title "Certificate of the designation of the legal person representative" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0009> a cv:Evidence ;
+	dct:title "Certificate of Professional Competence (C.P.C.)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0010> a cv:Evidence ;
+	dct:title "Certificate of the competent Insurance Agency" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0011> a cv:Evidence ;
+	dct:title "Certificate of the translated driving license " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0012> a cv:Evidence ;
+	dct:title "Certificate of the competent Issuing Authority" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0013> a cv:Evidence ;
+	dct:title "Certificate of the judicial record for general purpose" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0014> a cv:Evidence ;
+	dct:title "Certificate proving the knowledge of the Greek language-Level 2" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/SpecialDrivingLicense> a cv:Evidence ;
+	dct:title "Special driving license of passenger vehicle for public use (taxi and special leasing vehicle)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0015> a cv:Evidence ;
+	dct:title "Certificate of the competent Police Service" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0016> a cv:Evidence ;
+	dct:title "Certificate of the competent Driving School" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/SolemnDeclaration> a cv:Evidence ;
+	dct:title "Solemn Declaration of Law 1599/1986 " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/TopographicPlan> a cv:Evidence ;
+	dct:title "Certified copy of a topographic plan " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0017> a cv:Evidence ;
+	dct:title "Certificate of the competent Fire Service" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/ProducerInvoice> a cv:Evidence ;
+	dct:title "Sales invoice of the producer" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/StoreAuthorization> a cv:Evidence ;
+	dct:title "Store authorization " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0031> a cv:Evidence ;
+	dct:title "Certificate of the commencement of businness activity" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0030> a cv:Evidence ;
+	dct:title "Certificate of the registration at the Chamber of Commerce " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0018> a cv:Evidence ;
+	dct:title "Certificate of professional experience " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0019> a cv:Evidence ;
+	dct:title "Certificate of the suitability of an importer-exporter" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0007> a cv:Evidence ;
+	dct:title "License of production" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0008> a cv:Evidence ;
+	dct:title "License of the competent Archaeological Service" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0009> a cv:Evidence ;
+	dct:title "License of the Civil Aviation Service" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0021> a cv:Evidence ;
+	dct:title "Certificate of the competent Forestry Service" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0022> a cv:Evidence ;
+	dct:title "Certificate of the Urban Planning Service" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0023> a cv:Evidence ;
+	dct:title "Certificate of the Directorate of Agriculture Development" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/TaxReturn> a cv:Evidence ;
+	dct:title "Annual tax return" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0001> a cv:Output ;
+	dct:title "Certificate for the announcement of the commencement of an electrical engineer professional activities" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0002> a cv:Output ;
+	dct:title "Certificate for the announcement of the commencement of a mechanical engineer professional activities" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0003> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0004> a cv:Output ;
+	dct:title "Certificate for the submission of supporting documents " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0001> a cv:Output ;
+	dct:title "License for the construction machinery operator " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseAM> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA1> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA2> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseA> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseB> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseBE> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseD1> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseC1E> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseCE> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/DrivingLicenseDE1> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0002> a cv:Output ;
+	dct:title "License for the establisment and the operation of a Creative Center for Children (C.C.C.) With Disabilities (W.D) for profit" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0003> a cv:Output ;
+	dct:title "License for the establisment and the operation of a non-profit Creative Center for Children (C.C.C.) With Disabilities (W.D.) " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0004> a cv:Output ;
+	dct:title "License for the establisment and the operation of a Creative Center for Children (C.C.C.) for profit" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0005> a cv:Output ;
+	dct:title "License for the establisment and the operation of a non-profit Creative Center for Children (C.C.C.) " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/SpecialDrivingLicense> a cv:Output .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0028> a cv:Output ;
+	dct:title "Certificate for the classification of a parcel" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0029> a cv:Output ;
+	dct:title "Certificate for the suitablity of a parcel" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0006> a cv:Output ;
+	dct:title "Licence for trading plant protection products in stores" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/CodeNumber> a cv:Output ;
+	dct:title "Code number acquisition to proceed to transactions" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0001> a cv:Output ;
+	dct:title "Decision of the competent Head of the Region of the Special Ecological Assessment (S.E.A.) " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0002> a cv:Output ;
+	dct:title "Decision of inclusion of Renewable Energy Sources (R.E.S.) projects in the Standard Environmental Commitments (S.E.C.)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0003> a cv:Output ;
+	dct:title "Decision of inclusion of specific projects and activities in the Standard Environmental Commitments (S.E.C.)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0004> a cv:Output ;
+	dct:title "Decision of inclusion of road construction in the Standard Environmental Commitments (S.E.C.)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Decision0005> a cv:Output ;
+	dct:title "Decision of inclusion of  Environmental Infrastructure Systems projects to Standard Environmental Commitments (S.E.C.)" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0024> a cv:Output ;
+	dct:title "Certificate for the announcement of the commencement of  an electrician professional  activities" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0010> a cv:Output ;
+	dct:title "License for an electrician " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0025> a cv:Output ;
+	dct:title "Certificate for the announcement of the commencement of  a plumber professional  activities" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0011> a cv:Output ;
+	dct:title "Licence for a plumber" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0026> a cv:Output ;
+	dct:title "Certificate for the announcement of the commencement of a refrigeration technician professional activities" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0012> a cv:Output ;
+	dct:title "License for a  refrigeration technician" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0027> a cv:Output ;
+	dct:title "Certificate for the announcement of the commencement of a technician of mechanical equipment professional activities" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/License0013> a cv:Output ;
+	dct:title "Licence for a technician of mechanical equipment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/doc/Certificate0020> a cv:Output ;
+	dct:title "Phytosanitarity certificate " .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/channel/ServiceBureau> a cv:Channel ;
+	dct:type "Service Bureau" ;
+	schema:openingHours "Mo-Fr 7:00 - 15:00" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0001> a cv:Cost ;
+	cv:value "17.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0002> a cv:Cost ;
+	cv:value "15.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0003> a cv:Cost ;
+	cv:value "31.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0004> a cv:Cost ;
+	cv:value "10.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0005> a cv:Cost ;
+	cv:value "138.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0006> a cv:Cost ;
+	cv:value "67.02" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0007> a cv:Cost ;
+	cv:value "268.15" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0008> a cv:Cost ;
+	cv:value "198.15" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0009> a cv:Cost ;
+	cv:value "118.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0010> a cv:Cost ;
+	cv:value "70.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0011> a cv:Cost ;
+	cv:value "69.02" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0012> a cv:Cost ;
+	cv:value "30.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0013> a cv:Cost ;
+	cv:value "50.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0014> a cv:Cost ;
+	cv:value "0.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0015> a cv:Cost ;
+	cv:value "700.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0016> a cv:Cost ;
+	cv:value "600.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0017> a cv:Cost ;
+	cv:value "40.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/cost/cost0018> a cv:Cost ;
+	cv:value "400.0" ;
+	cv:currency "Euro" ;
+	dct:description "Fee payment" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/634_1977> a cpsv:FormalFramework ;
+	dct:title "Law 634/1977" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/2508_1997> a cpsv:FormalFramework ;
+	dct:title "Law 2508/1997" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/1333_1983> a cpsv:FormalFramework ;
+	dct:title "Law 1333/1983 (Official Government Gazette(O.G.G.) 31, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/3710_2008> a cpsv:FormalFramework ;
+	dct:title "Law 3710/2008 (Official Government Gazette(O.G.G.) 216, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/3982_2011> a cpsv:FormalFramework ;
+	dct:title "Law 3982/2011(Internet Uploading Number (IUN)4ΑΣΡΦ-ΑΔ2)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/4018_2011> a cpsv:FormalFramework ;
+	dct:title "Law 4018/2011 (Official Government Gazette(O.G.G.) 215, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/4014_2011> a cpsv:FormalFramework ;
+	dct:title "Law 4014/2011  (Official Government Gazette(O.G.G.) 209/21-09-2011, issue A'" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/4036_2012> a cpsv:FormalFramework ;
+	dct:title "Law 4036/2012" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/4070_2012> a cpsv:FormalFramework ;
+	dct:title "Law 4070/2012 (Official Government Gazette(O.G.G.)82, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/4199_2013> a cpsv:FormalFramework ;
+	dct:title "Law 4199/2013(Official Government Gazette(O.G.G.) 216, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/law/4155_2013> a cpsv:FormalFramework ;
+	dct:title "Law 4155/2013 (Internet Uploading Number (IUN)ΒΕΖΦ1-ΨΚ4)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2003> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 25754/31-07-2003(Official Government Gazette(O.G.G.) 1122/9/08-08-2003)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2004> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 24058/2653/2004" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2004> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 304160/12-11-2004" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2012> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 8353/276/E103/17-02-2012(Official Government Gazette(O.G.G.) 415/23-02-2012, issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0001_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 10574/661/F.G.9.6.4. /(Official Government Gazette(O.G.G.) 2190/05-09-2013, issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0002_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 368/12/F.G.9.6.4/2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0003_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 8442/561/F.G.9.6.4./2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0004_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 5570/378/F.G.9.6.4./2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0005_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 10169/639/F.G.9.6.4./2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0006_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 411/14/F.G.9.6.4./10-01-2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0007_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 457/25/F.G.9.6.4./11-01-2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0008_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 5571/379/F.G.9.6.4./24-4-2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0009_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 7667/520/F.G.9.6.4./14-06-2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0010_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 18694/658/E 103/11-04-2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/cmd/0011_2013> a cpsv:FormalFramework ;
+	dct:title "Common Ministerial Decision 9030/589/F.G.9.6.4./17-07-2013" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/243_1987> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 243/1987(Official Government Gazette(O.G.G.)104, issue Α')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/244_1987> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 243/1987(Official Government Gazette(O.G.G.)104, issue Α')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/74_2008> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 74/2008 (Official Government Gazette(O.G.G.) 112/18-06-2008, issue Α')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/51_2012> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 51/2012 (Official Government Gazette(O.G.G.)  101/27-04-2012, issue Α')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/112_2012> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 112/2012 (Official Government Gazette(O.G.G.)  197/17-10-2012, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/113_2012> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 113/2012 (Official Government Gazette(O.G.G.)  198/17-10-2012, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/114_2012> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 114/2012 (Official Government Gazette(O.G.G.)  199/17-10-2012, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/115_2012> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 115/2012 (Official Government Gazette(O.G.G.)  200/17-10-2012, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/1_2013> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 1/2013 (Official Government Gazette(O.G.G.)  3/8-1-2013, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/pd/108_2013> a cpsv:FormalFramework ;
+	dct:title "Presidential Decree 108/2013 (Official Government Gazette(O.G.G.) 141/12-06-2013, issue A')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/circ/454_2009> a cpsv:FormalFramework ;
+	dct:title "Circular G454/19716/1780/28-7-2009" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/circ/251_2013> a cpsv:FormalFramework ;
+	dct:title "Circular A3/165/251/18-01-2013 (Internet Uploading Number (IUN)ΒΕΙΠΕ1-ΡΓΠ)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_1984> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 18369/500/1984(Β' 403)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2001> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision P2b/GP/14957/09-10-2001(Official Government Gazette(O.G.B.)1397/22-10-2001), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2002> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision P1b/GP/30411/09-12-2002(Official Government Gazette(O.G.B.)395/02-04-2002), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2009> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 72048/9666/08/2009 (Β΄216)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2009> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 49522/6046/2009(Β' 2024)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2009> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision P1b/GP/109707/2009(Official Government Gazette(O.G.B.)1849/003-09-2009), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2012> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 1958/13-01-2012(Official Government Gazette(O.G.B.21/13-1-2012), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2013> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 50984/7947/22-11-20139(Β' 3056)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0002_2013> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 1163/3-7-2013(Β' 1675)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0003_2013> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 30063/4796/2013(B' 2643)" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0004_2013> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision D27/9737/04-03-2013(Official Government Gazette(O.G.B.)91/16-04-2013), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0005_2013> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 52983/1952/25-09-2013(Official Government Gazette(O.G.B.)2436/27-09-2013), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0006_2013> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 3791/21-01-2013(Official Government Gazette(O.G.B.)104/24-01-2013), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0007_2013> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 170613/2013(Official Government Gazette(O.G.B.)2505/07-10-2013), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0008_2013> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 171914/2013(Official Government Gazette(O.G.B.)307/03-12-2013), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/md/0001_2014> a cpsv:FormalFramework ;
+	dct:title "Ministerial Decision 17407/24-072014(Official Government Gazette(O.G.B.)2138/05-08-2014), issue B')" .
+
+<http://data.dai.uom.gr:8890/LegalFramework/id/reg/0001_2011> a cpsv:FormalFramework ;
+	dct:title "Regulation 543/2011" .
+
+<http://data.dai.uom.gr:8890/PublicOrganization/id/nuts3/GRC_PRF_IPEIR> a cv:PublicOrganisation ;
+	dct:title "Region of Epirus" ;
+	skos:altLabel "Epirus region" ;
+	dct:spatial "http://publications.europa.eu/resource/authority/atu/GRC_PRF_IPEIR" .
+
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0001> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/ElectricalEngineer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0002> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/MechanicalEngineer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0003> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/MachineryAssistantOperator> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0004> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/MachineryOperator> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0005> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/MachineryOperator> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0006> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0007> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0008> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0009> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0010> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0011> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Teacher> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0012> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Teacher> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0013> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Teacher> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0014> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Teacher> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0015> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0016> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0017> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0018> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0019> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0020> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0021> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0022> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0023> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0024> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0025> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0026> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0027> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Driver> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0028> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Farmer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0029> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Farmer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0030> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Αgriculturist> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0031> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/VegetableTrader> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0032> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/VegetableTrader> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0033> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/CivilEngineer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0034> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/CivilEngineer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0035> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/CivilEngineer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0036> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/CivilEngineer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0037> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/CivilEngineer> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0038> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Electrician> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0039> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Electrician> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0040> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Plumber> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0041> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/Plumber> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0042> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/RefrigerationTechnician> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0043> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/RefrigerationTechnician> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0044> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/MechanicalTechnician> .
+<http://data.dai.uom.gr:8890/PublicServices/id/ps/ps0045> <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/hasPotentialConsumer> <http://data.dai.uom.gr:8890/PublicServices/id/profession/MechanicalTechnician> .

@@ -1,0 +1,77 @@
+#------------------------------------------------------------------------------------------------------------------------------------------------------>
+#-- RDF definition of additional classes and properties for which a class or property of an existing vocabulary or ontology have not been reused ------>
+#-- Should be used in combination with the RDF schema of CPSV-AP 2.0  --------------------------------------------------------------------------------->
+#------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+@prefix cpsv: <http://purl.org/vocab/cpsv#> .
+@prefix cv: <http://data.europa.eu/m8g/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix cpsvext: <http://data.dai.uom.gr:8890/PublicServices/cpsvap-extension/> .
+
+cpsvext:PotentialConsumer a rdfs:Class ;
+ rdfs:label "PotentialConsumer"@en ;
+ rdfs:subClassof dct:Agent ;
+ vann:usageNote "Optional class. This class provides information about the potential consumer of the PS. "@en .
+
+cpsvext:Feedback a rdfs:Class ;
+ rdfs:label "Feedback"@en ;
+ vann:usageNote "Optional class. This class hosts any type of feedback about the PS (e.g., concerning PS description, PS provision, etc.). "@en .
+
+cpsvext:process a rdf:Property ;
+ rdfs:label "process"@en ;
+ vann:usageNote "Cardinality [1..1]. The steps followed during PS provision . "@en ;
+ rdfs:domain cpsv:PublicService ;
+ rdfs:range foaf:Document .
+
+cpsvext:hasPotentialConsumer a rdf:Property ;
+ rdfs:label "hasPotentialConsumer"@en ;
+ vann:usageNote "Cardinality [n..n]. Links the PublicService class with the PotentialConsumer class. "@en ;
+ rdfs:domain cpsv:PublicService ;
+ rdfs:range cpsvext:PotentialConsumer .
+
+cpsvext:deadline a rdf:Property ;
+ rdfs:label "deadline"@en ;
+ vann:usageNote "Cardinality [0..1]. The deadline for submission of an application for obtaining a PS. "@en ;
+ rdfs:domain cpsv:PublicService ;
+ rdfs:range rdfs:Literal .
+
+cpsvext:appeal a rdf:Property ;
+ rdfs:label "Appeal-Complaints"@en ;
+ vann:usageNote "Cardinality [0..1]. Information about the constituents’ right to object to a governmental decision relevant to the PS. "@en ;
+ rdfs:domain cpsv:PublicService ;
+ rdfs:range foaf:Document .
+
+cpsvext:consequence a rdf:Property ;
+ rdfs:label "consequence"@en ;
+ vann:usageNote "Cardinality [0..n]. Information about the executed PS that needs to be forwarded to interested parties. "@en ;
+ rdfs:domain cpsv:PublicService ;
+ rdfs:range cpsv:PublicService .
+
+cpsvext:baseRegistry a rdf:Property ;
+ rdfs:label "baseRegistries"@en ;
+ vann:usageNote "Cardinality [0..n]. The URIs of the base registries that provides necessary data for the execution of the PS."@en ;
+ rdfs:domain cv:Evidence ;
+ rdfs:range dct:identifier .
+
+cpsvext:purposeOfEvidence a rdf:Property ;
+ rdfs:label "purposeOfEvidence"@en ;
+ vann:usageNote "Cardinality [1..1]. The purpose served by a piece of evidence. "@en ;
+ rdfs:domain cv:Evidence ;
+ rdfs:range rdfs:Literal .
+
+cpsvext:need a rdf:Property ;
+ rdfs:label "need"@en ;
+ vann:usageNote "Cardinality [0..n]. The needs of the societal group that the PS is targeting."@en ;
+ rdfs:domain cpsvext:PotentialConsumer ;
+ rdfs:range rdfs:Literal .
+
+cpsv:expresses a rdf:Property ;
+ rdfs:label "Feedback"@en ;
+ vann:usageNote "Cardinality [0..n]. Links the PotentialConsumer class with the Feedback class. "@en ;
+ rdfs:domain cpsvext:PotentialConsumer ;
+ rdfs:range cpsvext:Feedback .
